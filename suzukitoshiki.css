@@ -1,0 +1,99 @@
+.header-logo{
+    color:green;
+    font-size:100px;
+    text-align: center;
+    padding:20 px;
+    
+}
+
+.header{
+    background-color: aqua;
+    height: 100px;
+}
+
+.contents{
+ background-image: url("file:///Users/suzukitoshiki/Downloads/S__2588717.jpg");
+ background-size:cover;
+ object-fit: cover;
+ height: 1000px;
+}
+
+.contents h1{
+    font-size:100px;
+}
+.section h2{
+    font-size:45px;
+}
+
+.wrapper{
+    background-color:papayawhip;
+}
+.container h3{
+    background-color:orange;
+}
+
+.img　src{
+    max-width: 50%
+}
+.container p {
+    font-size: 30px;
+}
+
+.container li{
+    float:left;
+    padding:20px 20px;
+}
+
+input,textarea{
+    widows: 400px;
+    margin-top:  10px;
+    max-resolution: bottom 30px;
+    padding:20px
+    font-size:18px;
+    border:1px solid #dee7ec;
+}
+
+.contact-submit{
+    background-color: #dee7ec;
+    color:#889eab
+}
+
+.message {
+    padding:15px 40px;
+    background-color :yellow;
+    box-shadow:0 7px red;
+    cursor: pointer;            
+}
+.message:active {            
+    position: relative;            
+    top: 7px;            
+    box-shadow: none;            
+  }
+
+.footer{
+    padding:20px 20px
+}
+.footer p1{
+    float: left;
+    font-size: 50px;
+}
+
+.footer p2{
+    float: left;
+    font-size: 50px;
+    color:red;
+}
+
+.footer p3{
+    float:left;
+    font-size: 50px;
+    color:yellow;
+    padding: 0 30px;
+}
+
+.footer p4{
+    float:left;
+    font-size: 50px;
+    color:blue;
+    padding: 0 30px;
+}
