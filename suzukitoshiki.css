@@ -11,7 +11,6 @@
 .contents{
  background-image: url("https://toshiki89.github.io/suzuki-toshiki./S__2588717.jpg");
  background-size: cover;
- object-fit: cover;
  height: 1000px;
 }
 .contents h1{
@@ -41,10 +40,12 @@
     padding:5px 40px ;
     list-style-type: disc;
 }
+.h4{
+    font-size:50px ;
+}
 input,textarea{
     widows: 400px;
     margin-top:  10px;
-    max-resolution: bottom 30px;
     padding:20px
     font-size:18px;
     border:1px solid #dee7ec;
@@ -71,24 +72,22 @@ input,textarea{
     float: left;
     font-size: 50px;
 }
-
-.footer p2{
+.footer a{
     float: left;
     font-size: 50px;
-    color: purple;
-   
+    padding: 0 30px;
+    color: purple; 
 }
-
-.footer p3{
+.footer b{
     float:left;
     font-size: 50px;
     padding: 0 30px;
     color: skyblue;
 }
-
-.footer p4{
+.footer c{
     float:left;
     font-size: 50px;
     padding: 0 30px;
     color: steelblue;
 }
+
