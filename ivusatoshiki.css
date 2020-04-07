@@ -1,10 +1,10 @@
 .header-logo{
-    color:green;
+    color:black;
     font-size:35px;
     text-align: center;
     padding:20 px;  
 }
 .header{
-    background-color: aqua;
+    background-color:greenyellow;
     height: 50px;
 }
