@@ -8,6 +8,26 @@
     background-color:greenyellow;
     height: 50px;
 }
+.contents-item{
+    float:left;
+    text-align:center;
+    margin-top: 30px;
+}
+.example p{
+    float:left;
+    padding-left: 200px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.content{
+    margin-right: auto;
+    margin-left: auto;
+}
+.content h3{
+    padding-right: 350px;
+}
+
+
 .section{
     padding:20px 20px
 }
