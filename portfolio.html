@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toshiki Suzuki</title>
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Merriweather+Sans:wght@700&family=PT+Serif:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+
+    <style>
+		.target {
+			transition: .5s ;
+			transform: rotateY( 0deg ) ;
+		}
+
+		.profile-img-wrap:hover .target {
+			transform: rotateY( 360deg ) ;
+        }
+        .top-page {
+    background-image:url('fall.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    /* background-repeat: repeat; */
+}
+        
+	</style>
+</head>
+<body>
+    <div class="top-page">
+        <header>
+        <div class="header-left">
+            <h1>Toshiki Suzuki</h1>
+        </div>
+        <div class="heder-right">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        </header>
+    </div>
+      
+    </div>
+    <section id="about">
+        <h1>About</h1>
+        <div class="profile-img-wrap">
+             <img src="mine.jpg" class="target" alt="" >
+        </div>
+        <div class="self-introduction">
+            <ul>
+                <li>名前：鈴木俊樹（Toshiki Suzuki）</li>
+                <li>出身：千葉県</li>
+                <li>学歴：中央大学文学部</li>
+                <li>活動：海外ボランティア2回</li>
+                <li>今後：エンジニアとしてワクワクを創る</li>
+            </ul>
+        </div>
+
+    </section>
+    <section id="works">
+        <h1>Works</h1>
+        <div class="work">
+        <h2>レスポンシブデザイン</h2>
+        <video src="web-video.mp4" loop autoplay muted></video>
+        </div>
+
+    </section>
+    <section id="skills">
+        <h1>Skills</h1>
+        <dl class="toggle-menu">
+            <dt id="q7-btn">Skills</dt>
+            <dd id="q8-text">HTML </dd>
+            <dd id="q9-text">CSS</dd>
+            <dd id="q10-text">JavaScript</dd>
+            <dd id="q11-text">WordPress</dd>
+        </dl>
+        <div class="imarge">
+            <img src="html.png" width="150" class="q8-target" alt="">
+            <img src="css.png"  width="150" class="q9-target" alt="">
+            <img src="js.png"   width="150" class="q10-target"alt="">
+            <img src="wp.png"   width="150" class="q11-target"alt="">
+        </div>
+    </section>
+    <section id="contact">
+        <h1>Contact</h1>
+        <div class="contact-wrap">
+            <p>名前</p>
+            <input type="text" name="text" placeholder=>
+            <p>メールアドレス</p>
+            <input type="email" name="email" placeholder=>
+            <p>メッセージ</p>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <button type="submit">送信</button>
+            <button id="q9-btn">^</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; copyright©2020 Toshiki Suzuki all rights reserved.</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
