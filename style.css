@@ -4,8 +4,7 @@
 .top-page {
     height: 100vh;
     width: 100vw;
-    background-image: url("https://toshiki89.github.io/suzuki-toshiki./S__2588717.jpg");
-    
+    background-image: url(../img/child.jpg);
     background-size: cover;
     background-repeat: repeat;
 }
@@ -17,7 +16,6 @@ header {
     padding: 20px 70px;
     background-color:aquamarine;
     border-bottom:4px solid ;
-    
     
 }
 .burger {
@@ -50,7 +48,10 @@ nav {
         display: none;
     }
 }
-
+a{
+  text-decoration: none;
+} 
+/* できない！！ */
 
 li {
     font-size: 20px;
@@ -131,7 +132,7 @@ p {
         float: left;
         border: 1px solid black;
         margin:  15px;
-        padding: 20px 30px;
+        padding: 80px 30px;
     }
 }
 .card h2{
@@ -142,11 +143,16 @@ p {
     margin:0 50px ;
 }
 #access iframe {
-    margin-top: 50px;
+    width: 100%;
+    margin:50px auto;
+    display: flex;
 }
 
 .memo{
     margin: 30px 0 30px 0;
+}
+.memo dl{
+    display: flex;
 }
 .memo dt {
     float: left;
@@ -158,9 +164,20 @@ p {
     display: block;
     }
 }
+.memo dd {
+    float: left;
+    margin: 10px 0;
+}
 .btn {
-    flex-direction: column;
+    flex-direction:column;
     align-items: center;
+    margin: 100px auto;
+}
+@media screen and (min-width: 480px){
+    .btn{
+        display: flex;
+    }
+ 
 }
 .btn button{
      width: 300px;
@@ -168,7 +185,7 @@ p {
     padding: 7px;
     height: 60px;
     background-color: #223644;
-    margin-top: 26px;
+    margin-top: 100px;
     margin-bottom: 100px;
     cursor: pointer;
     color: white;
