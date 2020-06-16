@@ -99,7 +99,7 @@ li {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(../img/child.jpg);
+    background-image: url(child.jpg);
     background-size: cover;
     
 }
