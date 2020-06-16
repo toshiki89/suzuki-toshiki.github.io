@@ -99,7 +99,7 @@ li {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(child.jpg);
+    background-image: url(../img/child.jpg);
     background-size: cover;
     
 }
@@ -144,10 +144,10 @@ p {
     margin-left: 50px;
 }
 .contents-right h2 {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .cards {
-    margin-top: 70px;
+    margin-top: 10px;
     justify-content: center;
     align-items: center;
 }
@@ -174,7 +174,10 @@ p {
     }
 }
 .card h2{
-    text-align: center;
+    font-size: 20px;
+    /* text-align: center; */
+    text-align: right;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 .text p{
@@ -193,7 +196,7 @@ p {
 }
 
 .memo{
-    margin: 30px 0 30px 0;
+    margin: 10px 0 10px 0;
 }
 .memo dl{
     display: flex;
