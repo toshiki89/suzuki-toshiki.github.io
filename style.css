@@ -93,13 +93,13 @@ li {
 }
 
 .main-visual {
-    height: 50vh;
+    height: 30vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(child.jpg);
+    background-image: url(../img/child.jpg);
     background-size: cover;
     
 }
@@ -119,10 +119,10 @@ li {
 }
 section {
     padding: 0 50px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 h1 {
-    font-size: 38px;
+    font-size: 20px;
 }
 h2 {
     font-size: 28px;
@@ -161,9 +161,9 @@ p {
 
 }
 .card {
-    border: 1px solid black;
-    margin: 30px 15px;
-    padding: 20px 30px;
+    /* border: 1px solid black; */
+    margin: 30px 5px;
+    /* padding: 20px 30px; */
 }
 @media screen and (min-width: 480px){
     .card {
