@@ -19,6 +19,13 @@ header {
     /* border-bottom:4px solid ; */
     
 }
+@media screen and (min-width: 480px) {
+    header{
+        padding: 20px 15px 20px 100px;
+
+    }
+}
+
 header b{
     font-size: 15px;
     /* margin-left: 15px; */
@@ -27,6 +34,30 @@ header p{
     font-size: 30px;
     margin-left: 10px;
     margin-top: 20px;
+}
+.header-right{
+    float: left;
+    text-align: right;
+    padding: 10px 15px 10px 0;
+}
+@media screen and (max-width: 480px) {
+    .header-right p{
+        display: none;
+    } 
+    .header-right p1{
+        display: none;
+    } 
+ } 
+.header-right p{
+    font-size: 16px;
+    text-align: right;
+    margin: 10px 15px 10px 0;
+    
+}
+.header-right p1{
+    color: red;
+    font-size: 20px;
+    margin: 0 15px 10px 0;
 }
 .burger {
     cursor: pointer;
@@ -79,6 +110,11 @@ li {
 .contact{
     background-color:aquamarine;
 }
+ @media screen and (min-width: 480px) {
+    .contact{
+        display: none;
+    } 
+ } 
 .contact-right{
     text-align: right;
     padding: 10px 15px 10px 0;
@@ -103,6 +139,7 @@ li {
     background-size: cover;
     
 }
+
 .main-visual h1 {
     font-size: 25px;
     color: white;
@@ -110,22 +147,38 @@ li {
     font-style: bold;
     
 }
-.main-visual p {
+@media screen and (min-width: 480px) {
+    .main-visual{
+        height:50vh
+    } 
+    .main-visual h1{
+        font-size: 80px;
+    }
+ } 
+/* .main-visual p {
     font-size: 26px;
     color: white;
     width: 80%;
     margin-top: 30px;
     text-align: center;
-}
+} */
 section {
     padding: 0 40px;
     padding-top: 50px;
 }
-h1 {
+/* h1 {
     font-size: 20px;
-}
+    margin-left: 100px;
+} */
 h2 {
-    font-size: 28px;
+    font-size: 20px;
+ } 
+ @media screen and (min-width: 480px) {
+    h2 {
+        margin-left: 100px;
+        font-size: 30px;
+    }
+
 }
 p {
     font-size: 16px;
@@ -136,10 +189,7 @@ p {
     align-items: center;
     margin-top: 70px;
 }
-.contents-left img{
-    height: 300px;
-    width: 450px;
-}
+
 .contents-right {
     margin-left: 50px;
 }
@@ -169,12 +219,13 @@ p {
     .card {
         float: left;
         border: 1px solid black;
-        margin:  15px;
-        padding: 80px 30px;
+        /* margin:  100px; */
+        padding: 80px 200px 30px 200px;
+        margin: 0 100px;
     }
 }
-.card h2{
-    font-size: 20px;
+.card h3{
+    font-size: 17px;
     /* text-align: center; */
     text-align: right;
     margin-top: 20px;
@@ -188,11 +239,16 @@ p {
     margin:auto;
     display:block;
 }
-#access iframe {
-    width: 110%;
+/* #access iframe {
+    width: 105%;
     margin:50px 10px;
     /* display: flex; */
-    /* text-align: center; */
+    /* text-align: center;
+} */ 
+iframe{
+    width: 90%;
+    /* margin: 50px 10px 50px 20px; */
+    padding: 20px;
 }
 
 .memo{
@@ -209,6 +265,7 @@ p {
 @media screen and (min-width: 480px){
     .memo dt{
     display: block;
+    margin-left: 100px;
     }
 }
 .memo dd {
