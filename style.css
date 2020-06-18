@@ -250,6 +250,10 @@ iframe{
     /* margin: 50px 10px 50px 20px; */
     padding: 20px;
 }
+@media screen and (min-width: 480px){
+    iframe{
+        padding-left:70px ;
+    }  
 
 .memo{
     margin: 10px 0 10px 0;
