@@ -19,7 +19,7 @@ header {
     /* border-bottom:4px solid ; */
     
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 735px) {
     header{
         padding: 20px 15px 20px 100px;
 
@@ -40,7 +40,7 @@ header p{
     text-align: right;
     padding: 10px 15px 10px 0;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 735px) {
     .header-right p{
         display: none;
     } 
@@ -82,7 +82,7 @@ nav {
     display: none;
 }
 /* 画面の幅が広い時 */
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 735px) {
     nav {
         display: block;
     }
@@ -110,7 +110,7 @@ li {
 .contact{
     background-color:aquamarine;
 }
- @media screen and (min-width: 480px) {
+ @media screen and (min-width: 735px) {
     .contact{
         display: none;
     } 
@@ -147,7 +147,7 @@ li {
     font-style: bold;
     
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 735px) {
     .main-visual{
         height:50vh
     } 
@@ -173,7 +173,7 @@ section {
 h2 {
     font-size: 20px;
  } 
- @media screen and (min-width: 480px) {
+ @media screen and (min-width: 735px) {
     h2 {
         margin-left: 100px;
         font-size: 30px;
@@ -201,7 +201,7 @@ p {
     justify-content: center;
     align-items: center;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 735px) {
     .cards {
         display: flex;
         margin-top: 70px;
@@ -215,7 +215,7 @@ p {
     margin: 30px 5px;
     /* padding: 20px 30px; */
 }
-@media screen and (min-width: 480px){
+@media screen and (min-width: 735px){
     .card {
         float: left;
         border: 1px solid black;
@@ -248,12 +248,13 @@ p {
 iframe{
     width: 90%;
     /* margin: 50px 10px 50px 20px; */
-    padding: 20px;
+    padding: 50px 20px;
 }
-@media screen and (min-width: 480px){
+@media screen and (min-width: 735px){
     iframe{
         padding-left:70px ;
     }  
+}  
 
 .memo{
     margin: 10px 0 10px 0;
@@ -266,7 +267,7 @@ iframe{
     margin: 10px 0;
     margin-right: 15px;
 }
-@media screen and (min-width: 480px){
+@media screen and (min-width: 735px){
     .memo dt{
     display: block;
     margin-left: 100px;
@@ -281,7 +282,7 @@ iframe{
     align-items: center;
     margin: 100px auto;
 }
-@media screen and (min-width: 480px){
+@media screen and (min-width: 735px){
     .btn{
         display: flex;
     }
@@ -316,7 +317,7 @@ iframe{
     margin-right: 200px;
     margin-bottom: 20px;
 }
-@media screen and (min-width: 480px){
+@media screen and (min-width: 735px){
     .contact-wrap p{
         margin-right: 450px;
     }
@@ -328,7 +329,7 @@ input, textarea {
     margin-bottom: 18px;
     padding: 3px 12px;
 }
-@media screen and (min-width: 480px){
+@media screen and (min-width: 735px){
     input {
         width:40%;
     }
@@ -341,7 +342,7 @@ input, textarea, button {
 textarea {
     width: 100%;
 }
-@media screen and (min-width: 480px){
+@media screen and (min-width: 735px){
     textarea {
         width:40%;
     }
