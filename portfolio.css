@@ -32,10 +32,12 @@ font-family: 'PT Serif', serif;
 }
     /* フォント変える */
 
-h2{
+#works a{
     font-size: 30px;
     /* margin: 30px 0 0 50px; */
     text-align: center;
+    text-decoration:underline;/*下線を引く*/
+text-underline-position:above;/*下線の位置をテキストの上に引く*/
   
 }
 ul{
@@ -107,10 +109,22 @@ section{
     justify-content: center;
     text-align:center ;
 }
-video{
+/* video{
     height:70vh;
     width: 70vw;
     margin-top: 50px;
+} */
+
+.gazou{
+    display: flex;
+    padding-top: 50px;
+    /* float: left;
+    height:70vh;
+    width: 70vw;
+    margin-top: 50px; */
+}
+.gazou img {
+    padding-right: 100px;
 }
 
 .toggle-menu{
