@@ -1,0 +1,371 @@
+* {
+    color: rgb(56, 56, 56);
+}
+/* 384pxがiphone11pro の横幅 */
+.top-page {
+    /* height: 100vh; */
+    width: 100vw;
+    /* background-image: url(../img/child.jpg); */
+    background-size: cover;
+    background-repeat: repeat;
+}
+header {
+    height: 10vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    background-color:aquamarine;
+    /* border-bottom:4px solid ; */
+    
+}
+@media screen and (min-width: 735px) {
+    header{
+        padding: 20px 15px 20px 100px;
+    }
+}
+
+header b{
+    font-size: 12px;
+    /* margin-left: 15px; */
+}
+header p{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.header-right{
+    float: left;
+    text-align: right;
+    padding: 10px 15px 10px 0;
+}
+@media screen and (max-width: 735px) {
+    .header-right p{
+        font-size:12px;
+        display: none;
+    } 
+    .header-right p1{
+        display: none;
+    } 
+ } 
+.header-right p{
+    font-size: 16px;
+    text-align: right;
+    margin: 10px 15px 10px 0;
+    
+}
+.header-right p1{
+    color: red;
+    font-size: 20px;
+    margin: 0 15px 10px 0;
+}
+.burger {
+    cursor: pointer;
+    text-align: left;
+}
+.burger div {
+    width: 35px;
+    height: 3px;
+    background-color: rgb(90, 90, 90);
+    margin: 10px;
+    border-radius: 3px;
+    
+}
+.burger p{
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+nav {
+    display: none;
+}
+/* 画面の幅が広い時 */
+@media screen and (min-width: 735px) {
+    nav {
+        display: block;
+    }
+    .nav-links {
+        display: flex;
+    }
+    .nav-links > li {
+        margin-left: 18px;
+    }
+    .burger {
+        display: none;
+    }
+}
+a{
+  text-decoration: none;
+} 
+/* できない！！ */
+
+li {
+    font-size: 20px;
+    float: left;
+    margin-left: 60px;
+    color: white;
+}
+.contact{
+    background-color:aquamarine;
+}
+ @media screen and (min-width: 735px) {
+    .contact{
+        display: none;
+    } 
+ } 
+.contact-right{
+    text-align: right;
+    padding: 10px 15px 10px 0;
+}
+.contact p{
+    font-size:12px;
+    margin: 10px 15px 10px 0;
+}
+.contact p1{
+    color: red;
+    font-size: 20px;
+    margin: 0 15px 10px 0;
+}
+
+.main-visual {
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/child.jpg);
+    background-size: cover;
+    
+}
+
+.main-visual h1 {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-style: bold;
+    
+}
+@media screen and (min-width: 735px) {
+    .main-visual{
+        height:50vh
+    } 
+    .main-visual h1{
+        font-size: 80px;
+    }
+ } 
+/* .main-visual p {
+    font-size: 26px;
+    color: white;
+    width: 80%;
+    margin-top: 30px;
+    text-align: center;
+} */
+section {
+    padding: 0 40px;
+    padding-top: 50px;
+}
+/* h1 {
+    font-size: 20px;
+    margin-left: 100px;
+} */
+h2 {
+    font-size: 20px;
+ } 
+ @media screen and (min-width: 735px) {
+    h2 {
+        margin-left: 100px;
+        font-size: 30px;
+    }
+
+}
+p {
+    font-size: 16px;
+}
+.about-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.contents-right {
+    margin-left: 50px;
+}
+.contents-right h2 {
+    margin-bottom: 10px;
+}
+.cards {
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width: 735px) {
+    .cards {
+        display: flex;
+        margin-top: 70px;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+.card {
+    /* border: 1px solid black; */
+    margin: 30px 5px;
+    /* padding: 20px 30px; */
+}
+@media screen and (min-width: 735px){
+    .card {
+        float: left;
+        border: 1px solid black;
+        /* margin:  100px; */
+        padding: 80px 200px 30px 200px;
+        margin: 0 100px;
+    }
+}
+.card h3{
+    font-size: 17px;
+    /* text-align: center; */
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text p{
+    margin:0 50px ;
+}
+#accses{
+    text-align: center;
+    margin:auto;
+    display:block;
+}
+/* #access iframe {
+    width: 105%;
+    margin:50px 10px;
+    /* display: flex; */
+    /* text-align: center;
+} */ 
+iframe{
+    width: 90%;
+    /* margin: 50px 10px 50px 20px; */
+    padding: 50px 20px;
+}
+@media screen and (min-width: 735px){
+    iframe{
+        padding-left:70px ;
+    }  
+}  
+
+.memo{
+    margin: 10px 0 10px 0;
+}
+.memo dl{
+    display: flex;
+}
+.memo dt {
+    float: left;
+    margin: 10px 0;
+    margin-right: 15px;
+}
+@media screen and (min-width: 735px){
+    .memo dt{
+    display: block;
+    margin-left: 100px;
+    }
+}
+.memo dd {
+    float: left;
+    margin: 10px 0;
+}
+.btn {
+    flex-direction:column;
+    align-items: center;
+    margin: 100px auto;
+}
+@media screen and (min-width: 735px){
+    .btn{
+        display: flex;
+    }
+ 
+}
+.btn button{
+     width: 300px;
+    font-size: 23px;
+    padding: 7px;
+    height: 60px;
+    background-color: #223644;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    color: white;
+}
+/* @media screen and (min-width: 480px){
+.note button{
+    margin: 30px 500px;
+} */
+
+.contact-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.contact-wrap p{
+    width: 50%;
+    font-size: large;
+    margin-right: 200px;
+    margin-bottom: 20px;
+}
+@media screen and (min-width: 735px){
+    .contact-wrap p{
+        margin-right: 450px;
+    }
+    
+}
+input, textarea {
+    width:100%;
+    font-size: 23px;
+    margin-bottom: 18px;
+    padding: 3px 12px;
+}
+@media screen and (min-width: 735px){
+    input {
+        width:40%;
+    }
+}
+
+input, textarea, button {
+    border-radius: 5px;
+    border-color: rgb(90, 90, 90);
+}
+textarea {
+    width: 100%;
+}
+@media screen and (min-width: 735px){
+    textarea {
+        width:40%;
+    }
+}
+.contact-wrap button {
+    width: 300px;
+    font-size: 23px;
+    padding: 7px;
+    height: 60px;
+    background-color: #223644;
+    margin-top: 26px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #223644;
+}
+footer p {
+    color: white;
+    font-size: 12px;
+}
